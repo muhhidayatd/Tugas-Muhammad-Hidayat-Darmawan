@@ -10,14 +10,14 @@ class Lingkaran(object):
 
 def main():
 
-    lingkaran = Lingkaran(7)
+    lingkaran = Lingkaran(4)
 
     print("Luas Lingkaran")
     print("phi\t: ",lingkaran.phi)
     print("r\t: ", lingkaran.r)
     print("Luas\t= ", lingkaran.hitungLuas())
 
-    lingkaran2 = Lingkaran(6)
+    lingkaran2 = Lingkaran(4)
 
     print("\nKeliling Lingkaran")
     print("phi\t: ", lingkaran2.phi)
@@ -37,13 +37,13 @@ class Persegi(object):
     
 def main():
     
-    persegi = Persegi(4)
+    persegi = Persegi(9)
 
     print("\nLuas Persegi")
     print("Sisi\t: ", persegi.s)
     print("Luas\t= ", persegi.hitungLuas())
 
-    persegi2 = Persegi(6)
+    persegi2 = Persegi(9)
 
     print("\nKeliling Persegi")
     print("Sisi\t: ", persegi2.s)
