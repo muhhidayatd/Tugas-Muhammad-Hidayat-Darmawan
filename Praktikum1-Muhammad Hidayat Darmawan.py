@@ -19,10 +19,10 @@ def main():
 
     lingkaran2 = Lingkaran(6)
 
-    print("\nLuas Lingkaran")
-    print("phi\t: ", lingkaran.phi)
-    print("r\t: ", lingkaran.r)
-    print("Luas\t= ", lingkaran.hitungKeliling())
+    print("\nKeliling Lingkaran")
+    print("phi\t: ", lingkaran2.phi)
+    print("r\t: ", lingkaran2.r)
+    print("Luas\t= ", lingkaran2.hitungKeliling())
 
 if __name__=="__main__":
     main()
