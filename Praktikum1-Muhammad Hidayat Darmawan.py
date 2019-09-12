@@ -22,7 +22,7 @@ def main():
     print("\nKeliling Lingkaran")
     print("phi\t: ", lingkaran2.phi)
     print("r\t: ", lingkaran2.r)
-    print("Luas\t= ", lingkaran2.hitungKeliling())
+    print("Keliling\t= ", lingkaran2.hitungKeliling())
 
 if __name__=="__main__":
     main()
@@ -47,7 +47,7 @@ def main():
 
     print("\nKeliling Persegi")
     print("Sisi\t: ", persegi2.s)
-    print("Luas\t= ", persegi2.hitungKeliling())
+    print("Keliling\t= ", persegi2.hitungKeliling())
 
 if __name__=="__main__":
     main()
