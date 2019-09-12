@@ -37,13 +37,13 @@ class Persegi(object):
     
 def main():
     
-    persegi = Persegi(9)
+    persegi = Persegi(20)
 
     print("\nLuas Persegi")
     print("Sisi\t: ", persegi.s)
     print("Luas\t= ", persegi.hitungLuas())
 
-    persegi2 = Persegi(9)
+    persegi2 = Persegi(20)
 
     print("\nKeliling Persegi")
     print("Sisi\t: ", persegi2.s)
