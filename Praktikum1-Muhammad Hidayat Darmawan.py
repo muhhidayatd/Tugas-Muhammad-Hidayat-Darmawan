@@ -46,8 +46,8 @@ def main():
     persegi2 = Persegi(6)
 
     print("\nKeliling Persegi")
-    print("Sisi\t: ", persegi.s)
-    print("Luas\t= ", persegi.hitungKeliling())
+    print("Sisi\t: ", persegi2.s)
+    print("Luas\t= ", persegi2.hitungKeliling())
 
 if __name__=="__main__":
     main()
